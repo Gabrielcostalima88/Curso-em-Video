@@ -1,3 +1,4 @@
+# conversor de decimal
 n = int(input('Digite um número inteiro:'))
 d = int(input('Você deseja converter o número digitado em qual base? 1-Binário, 2- Octal, 3- Hexadecimal '))
 if d == 1:
