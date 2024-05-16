@@ -1,3 +1,4 @@
+# Verifica alistamento militar
 from datetime import datetime
 ano_atual = datetime.now().year
 ano = int(input('Digite o seu ano de nascimento: '))
