@@ -18,6 +18,8 @@ if computador == 0: #pedra
         print('JOGADOR VENCEU!')
     if jogador == 2:
         print('COMPUTADOR VENCEU!')
+    else:
+        print('JOGADA INVÁLIDA')
 elif computador == 1: # papel
     if jogador == 0:
         print('COMPUTADOR VENCEU!')
@@ -25,6 +27,8 @@ elif computador == 1: # papel
         print('EMPATOU!, TENTE NOVAMENTE')
     if jogador == 2:
         print('JOGADOR VENCEU!')
+    else:
+        print('JOGADA INVÁLIDA')
 elif computador == 2: #tesoura
     if jogador == 0:
         print('JOGADOR VENCEU!')
@@ -32,5 +36,7 @@ elif computador == 2: #tesoura
         print('COMPUTADOR VENCEU!')
     if jogador == 2:
         print('EMPATOU!, TENTE NOVAMENTE')
+    else:
+        print('JOGADA INVÁLIDA')
 else:
     print('JOGADA INVÁLIDA!')
