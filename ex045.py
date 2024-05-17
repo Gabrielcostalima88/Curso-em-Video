@@ -1,5 +1,6 @@
 # pedra papel tesoura
 from random import randint
+from time import sleep
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0, 2)
 print('''Suas opções:
@@ -7,6 +8,12 @@ print('''Suas opções:
 [1] PAPEL
 [2] TESOURA''')
 jogador = int(input('Digite a sua jogada: '))
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PO')
+sleep(1)
 print('-=' * 11)
 print('Computador jogou {}'.format(itens[computador]))
 print('jogador jogou {} '.format(itens[jogador]))
